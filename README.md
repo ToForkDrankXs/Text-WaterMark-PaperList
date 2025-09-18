@@ -253,8 +253,10 @@ About Key Word:
 | [In-Context Watermarks for Large Language Models](https://arxiv.org/pdf/2505.16934) | 2025 | Prompt | - | - |
 | [Robust LLM Fingerprinting via Domain-Specific Watermarks](https://arxiv.org/pdf/2505.16723) | 2025 | Backdoor | - | [https://github.com/eth-sri/robust-llm-fingerprint](https://github.com/eth-sri/robust-llm-fingerprints) |
 | [Optimized Couplings for Watermarking Large Language Models](https://arxiv.org/pdf/2505.08878) | 2025 | Reweighting | scale logits | <https://github.com/Carol-Long/CC_Watermark> |
-| [An End-to-End Model for Logits Based Large Language Models Watermarking](https://arxiv.org/pdf/2505.02344) | ICML-2025 |Logits-Biased | <https://github.com/KAHIMWONG/E2E-LLM-Watermark>
-
+| [An End-to-End Model for Logits Based Large Language Models Watermarking](https://arxiv.org/pdf/2505.02344) | ICML-2025 |Logits-Biased | <https://github.com/KAHIMWONG/E2E-LLM-Watermark> |
+| [Towards the Resistance of Neural Network Watermarking to Fine-tuning](https://arxiv.org/pdf/2505.01007) | 2025 | A-priori | - |
+| [LLM Watermarking Using Mixtures and Statistical-to-Computational Gaps](https://arxiv.org/abs/2505.01484) | 2025 | Logits-Biased | - |
+| [Reversible natural language watermarking with augmented word prediction and compression](https://www.sciencedirect.com/science/article/pii/S2214212625002480) | JISA-2025 | Multi-Bit, Post-hoc | - |
 # 3.Survey And Benchmark
 
 | Paper | Proceedings / Journal-Year | Type |
