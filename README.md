@@ -253,10 +253,17 @@ About Key Word:
 | [In-Context Watermarks for Large Language Models](https://arxiv.org/pdf/2505.16934) | 2025 | Prompt | - | - |
 | [Robust LLM Fingerprinting via Domain-Specific Watermarks](https://arxiv.org/pdf/2505.16723) | 2025 | Backdoor | - | [https://github.com/eth-sri/robust-llm-fingerprint](https://github.com/eth-sri/robust-llm-fingerprints) |
 | [Optimized Couplings for Watermarking Large Language Models](https://arxiv.org/pdf/2505.08878) | 2025 | Reweighting | scale logits | <https://github.com/Carol-Long/CC_Watermark> |
-| [An End-to-End Model for Logits Based Large Language Models Watermarking](https://arxiv.org/pdf/2505.02344) | ICML-2025 |Logits-Biased | <https://github.com/KAHIMWONG/E2E-LLM-Watermark> |
-| [Towards the Resistance of Neural Network Watermarking to Fine-tuning](https://arxiv.org/pdf/2505.01007) | 2025 | A-priori | - |
-| [LLM Watermarking Using Mixtures and Statistical-to-Computational Gaps](https://arxiv.org/abs/2505.01484) | 2025 | Logits-Biased | - |
-| [Reversible natural language watermarking with augmented word prediction and compression](https://www.sciencedirect.com/science/article/pii/S2214212625002480) | JISA-2025 | Multi-Bit, Post-hoc | - |
+| [An End-to-End Model for Logits Based Large Language Models Watermarking](https://arxiv.org/pdf/2505.02344) | ICML-2025 |Logits-Biased | | <https://github.com/KAHIMWONG/E2E-LLM-Watermark> |
+| [Towards the Resistance of Neural Network Watermarking to Fine-tuning](https://arxiv.org/pdf/2505.01007) | 2025 | A-priori | | - |
+| [LLM Watermarking Using Mixtures and Statistical-to-Computational Gaps](https://arxiv.org/abs/2505.01484) | 2025 | Logits-Biased | | - |
+| [Reversible natural language watermarking with augmented word prediction and compression](https://www.sciencedirect.com/science/article/pii/S2214212625002480) | JISA-2025 | Multi-Bit, Post-hoc | | - |
+| [Paladin: Defending LLM-enabled Phishing Emails with a New Trigger-Tag Paradigm](https://arxiv.org/pdf/2509.07287) | 2025 | Backdoor | | - |
+| [Robustness Assessment and Enhancement of Text Watermarking for Google's SynthID](https://arxiv.org/abs/2508.20228)| 2025 | Logits-Bias | imporve SynthID | <https://github.com/githshine/SynGuard> |
+| [Optimizing Token Choice for Code Watermarking: A RL Approach](https://arxiv.org/abs/2508.11925)| 2025 | Logits-Bias,Code | RL for KGW | - |
+| [SAEMark: Multi-bit LLM Watermarking with Inference-Time Scaling](https://arxiv.org/pdf/2508.08211) | 2025 | Multi-Bit, Post-Hoc | Batch process to advance watermark detection. | - |
+| [LOCAT: Localization-Driven Text Watermarking via Large Language Models](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11006126) | TCS-2025 | Post-Hoc, Multi-Bit | Only test Post-Hoc wm | - |
+| [CurveMark: Detecting AI-Generated Text via Probabilistic Curvature and Dynamic Semantic Watermarking](https://www.mdpi.com/1099-4300/27/8/784) | Entropy-2025 | Logits-Bias | Detection Framework and Semantic R-G List | - |
+
 # 3.Survey And Benchmark
 
 | Paper | Proceedings / Journal-Year | Type |
@@ -293,6 +300,8 @@ In this part, the core of the paper is the research of the watermarking attack m
 | [Bypassing LLM Watermarks with Color-Aware Substitutions](https://arxiv.org/pdf/2403.14719) | ACL-2024 | spoofing,scrubbing | spoofing and scrubbing by green list predict with prompt | - |
 | [Adversarial Paraphrasing: A Universal Attack for Humanizing AI-Generated Text](https://arxiv.org/pdf/2506.07001) | 2025 | scrubbing | new paraphraser | <https://github.com/chengez/Adversarial-Paraphrasin> |
 | [Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks](https://arxiv.org/pdf/2505.05190)   | ICML-2025 | scrubbing |  Combine self-information to construct MLM and rewrite to attack  |  <https://github.com/Allencheng97/Self-information-Rewrite-Attack>  |
+| [Character-Level Perturbations Disrupt LLM Watermarks](https://arxiv.org/pdf/2509.09112) | NDSS-2026 | scrubbing | construct character-level attacks | <https://github.com/plll4zzx/CharacterRemoval4WM> |
+
 
 # 5.Other Research
 
