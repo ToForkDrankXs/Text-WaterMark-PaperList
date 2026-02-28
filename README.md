@@ -329,6 +329,7 @@ About Key Word:
   - **Key Word**: Logits-Bias, Detectability
   - **Note**: This paper aims at the problem that the watermark strength decreases when the text in A language is translated into B language. Improve-[SIR](https://arxiv.org/pdf/2310.06356)
   - **Code**: [https://github.com/zwhe99/X-SI](https://github.com/zwhe99/X-SIR)
+
 - **[k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text](https://arxiv.org/pdf/2402.11399)**
   - **Proceedings / Journal-Year**: 2024
   - **Key Word**: Sentence-Level, k-SemStamp
@@ -358,6 +359,7 @@ About Key Word:
   - **Key Word**: Post-Hoc, Multi-Bit
   - **Note**: Improve-[AWT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400)
   - **Code**: <https://gitlab.com/folbaeni/linguistic-watermark>
+  
 - **[Multi-Bit Distortion-Free Watermarking for Large Language Models](https://arxiv.org/pdf/2402.16578)**
   - **Proceedings / Journal-Year**: 2024
   - **Key Word**: Sample, Multi-Bit
@@ -781,6 +783,19 @@ About Key Word:
   - **Note**: Train the direct pass-through layer and embed it directly into the model.
   - **Code**: <https://developer.huaweicloud.com/develop/aigaller y/notebook/detail?id=58b799a0-5cfc-4c2e-8b9b440bb2315264>
 
+- **[Watermarking Large Language Models: An Unbiased and Low-risk Method](https://aclanthology.org/2025.acl-long.391/)**
+  - **Proceedings / Journal-Year**: ACL2025
+  - **Key Word**: Sample
+  - **Note**: Improve KGW & Unbiased. Sample token until the token is green.
+  - **Code**: <https://github.com/djwei96/STA>
+
+- **[Ensemble Watermarks for Large Language Models](https://aclanthology.org/2025.acl-long.145/)**
+  - **Proceedings / Journal-Year**: ACL2025
+  - **Key Word**: Logits-Bias
+  - **Note**: Mixed three ways to bias the logits.
+  - **Code**: <https://github.com/CommodoreEU/ensemble-watermark>
+
+
 # 3.Survey And Benchmark
 
 - **[A Survey on LLM-generated Text Detection: Necessity, Methods, and Future Directions]()**
@@ -869,7 +884,7 @@ In this part, the core of the paper is the research of the watermarking attack m
 
 - **[Evading AI-Generated Content Detectors using Homoglyphs](https://arxiv.org/pdf/2406.11239)**
   - **Proceedings / Journal-Year**: 2024
-  - **AttackType**: Word Level
+  - **AttackType**: Char Level for a single word
   - **Note**: Use homonyms to attack
   - **Code**: <https://github.com/ACMCMC/silverspeak>
 
@@ -944,9 +959,6 @@ In this part, the core of the paper is the research of the watermarking attack m
   - **AttackType**: spoofing
   - **Note**: Fine-Tune to learn watermark
   - **Code**: <https://github.com/THU-BPM/Watermark-Radioactivity-Attack>
-
-
-
 
 
 # 5.Other Research
@@ -1025,7 +1037,7 @@ In this part, the core of the paper is the research of the watermarking attack m
 
 - **[Efficiently Identifying Watermarked Segments in Mixed-Source Texts](https://arxiv.org/pdf/2410.03600)**
   - **Proceedings / Journal-Year**: ACL-2025
-  - **Detail**: improve detection in mixed-source texts
+  - **Detail**: improve detection in mixed-source texts, similar to waterseeker
   - **Note**: -
   - **Code**: -
 
