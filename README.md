@@ -917,22 +917,53 @@ About Key Word:
 
 - **[MC$^2$Mark: Distortion-Free Multi-Bit Watermarking for Long Messages](https://arxiv.org/abs/2602.14030)**
   - **Proceedings / Journal-Year**: 2026
-  - **Key Word**: Multi-Bit, Improve-BiMark
+  - **Key Word**: Multi-Bit, Improve-BiMark, Reweighting
   - **Note**: multilayer reweight
   - **Code**: -
 
 
 - **[ArcMark: Distortion-Free Multi-Byte LLM Watermark via Optimal Transport](https://arxiv.org/abs/2602.07235)**
   - **Proceedings / Journal-Year**: 2026
-  - **Key Word**: Multi-Bit
+  - **Key Word**: Multi-Bit,Reweighting
   - **Note**: Arc-shaped embedded watermarks and continuous values make it easier to strike a balance between detectability and text quality for watermarks.
   - **Code**: -
 
 - **[WorldCup Sampling for Multi-bit LLM Watermarking](https://arxiv.org/abs/2602.01752)**
   - **Proceedings / Journal-Year**: 2026
-  - **Key Word**: Multi-Bit, Improve-SynthID
+  - **Key Word**: Multi-Bit, Improve-SynthID, Sampling
   - **Note**: SynthID's multi-bit modification mode
   - **Code**: -
+
+- **[Sequence-level watermarking for large language models](https://www.sciencedirect.com/science/article/pii/S0950705126009068)**
+  - **Proceedings / Journal-Year**: KBS2026
+  - **Key Word**: Improve-KGW, Logits Bias
+  - **Note**: Target Copy-paste attack, improve kgw. fate
+  - **Code**: -
+
+- **[PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints](https://proceedings.iclr.cc/paper_files/paper/2026/file/2d8911db9ecedf866015091b28946e15-Paper-Conference.pdf)**
+  - **Proceedings / Journal-Year**: ICLR2026
+  - **Key Word**: Sentence-Level,Multi-Bit
+  - **Note**: After generating multiple sentences, use the median to partition the regions more flexibly.
+  - **Code**: <https://github.com/Z1zs/PMark>
+
+- **[AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](https://arxiv.org/abs/2605.29434)**
+  - **Proceedings / Journal-Year**: ICML2026
+  - **Key Word**: Sentence-Level, MultiBit
+  - **Note**: Optimize block partitioning.
+  - **Code**: <https://github.com/imethanlee/AliMark>
+
+- **[Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings](https://arxiv.org/abs/2606.31602)**
+  - **Proceedings / Journal-Year**: EMNLP2026-Findings
+  - **Key Word**: Logits-Bias
+  - **Note**: Vectorize token bias computation.
+  - **Code**: -
+
+- **[Learning to Follow In-Context Watermark Instructions via Self-Distillation](https://arxiv.org/abs/2608.29030)**
+  - **Proceedings / Journal-Year**: 2026
+  - **Key Word**: Aprior
+  - **Note**: Train the LLM to adapt to in-context watermarking instructions.
+  - **Code**: <https://github.com/yepengliu/ICW-IF>
+
 
 # 3.Survey
 
@@ -1173,12 +1204,15 @@ In this part, the core of the paper is the research of the watermarking attack m
   - **Detail**: Streaming online testing at any point in time
   - **Code**: -
 
-
 - **[Beyond Raw Detection Scores: Markov-Informed Calibration for Boosting Machine-Generated Text Detection](https://openreview.net/forum?id=Lzwkeg2o2z)**
   - **Proceedings / Journal-Year**: ICLR2026
-  - **Detail**: Streaming enhances detector performance
+  - **Detail**: Streaming enhances DETECTOR performance
   - **Code**: <https://github.com/tmlr-group/MRF_Calibration>
 
+- **[Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference](https://arxiv.org/abs/2609.03844)**
+  - **Proceedings / Journal-Year**: EMNLP2026
+  - **Detail**: GPU-accelerated watermark embedding for KGW only.
+  - **Code**: <https://github.com/si-mon-jinn/sbw>
 
 # 6.Evaluation & Benchmark
 
@@ -1363,6 +1397,12 @@ In this part, the core of the paper is the research of the watermarking attack m
   - **Key Word**: Agent Watermark
   - **Note**: Count the frequency of auxiliary actions appearing
   - **Code**: <https://github.com/meng-wenlong/AgentWmk>
+
+- **[WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency](https://arxiv.org/abs/2607.13099)**
+  - **Proceedings / Journal-Year**: 2026
+  - **Key Word**: MoE Watermark
+  - **Note**: Treat each MoE layer as an independent token and implement KGW accordingly.
+  - **Code**: -
 
 # Reference
 
