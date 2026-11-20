@@ -965,6 +965,44 @@ About Key Word:
   - **Code**: <https://github.com/yepengliu/ICW-IF>
 
 
+- **[Gamark: adaptive entropy-threshold watermarking via gaussian mixture modeling for large language models](https://link.springer.com/article/10.1186/s42400-026-00607-1)**
+  - **Proceedings / Journal-Year**: Cybersecurity2026
+  - **Key Word**: Logits-Bias
+  - **Note**: Gaussian mixture model features, dynamic entropy threshold estimation, and KGW watermark embedding. An advanced version of NS watermarking
+  - **Code**: -
+
+- **[TripPattern: A Pattern-based Text Watermarking Method for Large Language Models](https://arxiv.org/pdf/2609.12472)**
+  - **Proceedings / Journal-Year**:  AACL-IJCNLP 2026
+  - **Key Word**: Logits-Bias
+  - **Note**: Convert the red and green lists into three lists, and then execute two of them alternately.
+  - **Code**: -
+
+- **[CertMark: Distortion-Free Multi-Bit Watermarking with Certified Decoding](https://arxiv.org/abs/2609.33332)**
+  - **Proceedings / Journal-Year**:  2026
+  - **Key Word**: Multi-Bit, Sampling
+  - **Note**: Gumbel-max sampling, MPAC selects the bit information, set a threshold to avoid weak token information.
+  - **Code**: <https://github.com/Batorskq/CertMark>
+
+- **[NIDW: A post-hoc cascade multi-channel text watermarking framework with Newton interpolation](https://www.sciencedirect.com/science/article/abs/pii/S0950705126018150)**
+  - **Proceedings / Journal-Year**:  KBS2026
+  - **Key Word**: Multi-Bit, Post-hoc
+  - **Note**: zero-width space, and synonym replacement, with a lot of Noise processing methods
+  - **Code**: -
+
+- **[Every Bit, Everywhere, All at Once: A Binomial Multibit LLM Watermark](https://arxiv.org/abs/2605.11653)**
+  - **Proceedings / Journal-Year**:  NIPS2026
+  - **Key Word**: Multi-Bit, Logits-Bias
+  - **Note**: Binomial Voting, and dynamically adjust the weights based on prior information.
+  - **Code**: <https://github.com/eth-sri/multibit-binomial-wm>
+
+- **[Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes](https://arxiv.org/pdf/2609.38722)**
+  - **Proceedings / Journal-Year**:  2026
+  - **Key Word**: Multi-Bit, Logits-Bias
+  - **Note**: A multi-bit watermarking scheme improved upon KGW, but it employs complex error-correcting codes and boundary control mechanisms.
+  - **Code**: <https://github.com/zeweid1221/ECC_Watermark>
+
+
+
 # 3.Survey
 
 - **[A Survey on LLM-generated Text Detection: Necessity, Methods, and Future Directions](https://direct.mit.edu/coli/article/51/1/275/127462/A-Survey-on-LLM-Generated-Text-Detection-Necessity)**
@@ -1214,6 +1252,11 @@ In this part, the core of the paper is the research of the watermarking attack m
   - **Detail**: GPU-accelerated watermark embedding for KGW only.
   - **Code**: <https://github.com/si-mon-jinn/sbw>
 
+- **[TTMark: Pairwise Distortion-Free Watermarking Beyond Single-Token Entropy](https://arxiv.org/pdf/2609.36372)**
+  - **Proceedings / Journal-Year**: 2026
+  - **Detail**: Use two token as the minimal item for watermark detection
+  - **Code**: -
+
 # 6.Evaluation & Benchmark
 
 - **[WaterBench: Towards Holistic Evaluation of Watermarks for Large Language Models](https://aclanthology.org/2024.acl-long.83/)**
@@ -1323,6 +1366,11 @@ In this part, the core of the paper is the research of the watermarking attack m
   - **Note**: Seem watermark as infringement of IPement. Select useful features from watermark.
   - **Code**: <https://github.com/ZhengyueZhao/llm_infringement_detection>
 
+- **[Could LLM Watermark Detection be Public?](https://arxiv.org/pdf/2610.12106)**
+  - **Proceedings / Journal-Year**: 2025    
+  - **Detail**: Give public secret key for users and protect watermark system by private secret key.
+  - **Note**: The defense against public watermark detectors in engineering is achieved by embedding dual watermark keys.
+  - **Code**: <https://github.com/facebookresearch/textseal>
 
 # 8.Other Related Work
 
@@ -1402,6 +1450,24 @@ In this part, the core of the paper is the research of the watermarking attack m
   - **Proceedings / Journal-Year**: 2026
   - **Key Word**: MoE Watermark
   - **Note**: Treat each MoE layer as an independent token and implement KGW accordingly.
+  - **Code**: -
+
+- **[AuxMark: Defending Against Unauthorized Agent Distillation via Auxiliary Behavioral Watermarking](https://arxiv.org/abs/2609.34597)**
+  - **Proceedings / Journal-Year**: 2026
+  - **Key Word**: Agent Watermark
+  - **Note**: Surface-level watermarking, which embeds safe and harmless operations into an agent's actions as watermark signatures.
+  - **Code**: <https://github.com/qx041609/Auxmark>
+
+- **[DenMark: Robust Semantic Watermarking for Diffusion Language Models](https://arxiv.org/abs/2609.14257)**
+  - **Proceedings / Journal-Year**: 2026
+  - **Key Word**: Diffusion GLM Watermark
+  - **Note**: Diffusion language model watermarking, semantic block segmentation + semantic coding
+  - **Code**: <https://github.com/TianhaoMa5/DenMark>
+
+- **[Constitution-Guided Watermarking](https://arxiv.org/abs/2610.09552)**
+  - **Proceedings / Journal-Year**: 2026
+  - **Key Word**: Watermark when Deployment
+  - **Note**: An actual deployment, adaptively optimized KGW watermark
   - **Code**: -
 
 # Reference
